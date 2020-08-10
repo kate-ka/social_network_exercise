@@ -9,7 +9,7 @@ What is done:
      "/api/posts/analytics/?created_after=2020-08-09&created_before=2020-08-10"
 * Sign-in using JWT Sign-up
 * Automated bot that creates and likes post randomly
-* Browsable API via Swagger
+* Browsable Swagger API is available by http://127.0.0.1:8000/api/swagger/
 
  
 #### Installation and run

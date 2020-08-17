@@ -26,3 +26,9 @@ class JWTObtainSerializer(TokenObtainPairSerializer):
             sender=self.user.__class__, request=self.context["request"], user=self.user
         )
         return data
+
+
+class UserActivitySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ("username", "last_login", "last_request")
